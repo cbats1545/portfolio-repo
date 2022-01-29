@@ -2,6 +2,102 @@
     width: 100%;
 }
 
+#welcome-section {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 2px;
+}
+
+#welcome-section h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 72px;
+    padding: 0;
+}
+
+#welcome-section h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 37px;
+    padding: 0;
+}
+
+/* social links will function similar to navbar */
+#social-links {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    padding: 2px;
+    width: 100%;
+}
+
+#social-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-links li{}
+#github {}
+#codepen {}
+#freecodecamp {}
+#twitter {}
+#stack-overflow {}
+
+#first-exh {}
+#second-exh {}
+#third-exh {}
+
+#footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 0%;
+    margin: 0;
+    padding: 0px;
+}
+
+/*should I code this like a horizontal navbar?*/
+#footer ul {
+    list-style: none;
+    margin: 0;
+    paddnig: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer li {}
+
+/*    The below is copied from a codepen in case
+        reference purposes.
+h1 {
+    font-family: Arial Black, helvetica, serif;
+    font-size: 72px;
+    padding: 0;
+}
+
+#projects-container {
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#project-tile {
+    width: 33%;
+    position: relative;
+    padding: 5px;
+}
+#welcome-section {
+    height: 100vh;
+    padding: 0;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #navbar {
     position: fixed;
     top: 0;
@@ -38,33 +134,4 @@
 #navbar a:hover {
     background: black;
 }
-
-#welcome-section {
-    height: 100vh;
-    padding: 0;
-    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
-    ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    font-family: Arial Black, helvetica, serif;
-    font-size: 72px;
-    padding: 0;
-}
-
-#projects-container {
-    display: flex;
-    height: 100vh;
-    padding: 0;
-    width: 100%;
-    justify-content: space-evenly;
-}
-
-#project-tile {
-    width: 33%;
-    position: relative;
-    padding: 5px;
-}
+*/
